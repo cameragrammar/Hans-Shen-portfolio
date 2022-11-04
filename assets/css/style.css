@@ -45,11 +45,12 @@ body {
 
 
 nav {
-  position: sticky;
+  position: top;
   top: 0;
   left: 0;
   z-index: 1;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   padding: 1.5rem 3.5rem;
@@ -95,7 +96,7 @@ nav ul li {
   align-items: center;
   justify-content: center;
   gap: 2.5rem;
-  max-width: 68.75rem;
+  max-width: 45rem;
   margin: auto;
 }
 
@@ -245,13 +246,6 @@ footer {
   margin: 10px;
 }
 
-.project-card {
-  background-color: #fff;
-  border-radius: 11px;
-  box-shadow: 0 3px 10px var(--primary-shadow);
-  padding: 20px;
-  margin: 10px;
-}
 
 
 @media screen and (max-width: 720px) {
